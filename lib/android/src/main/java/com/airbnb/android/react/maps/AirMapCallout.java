@@ -8,6 +8,13 @@ public class AirMapCallout extends ReactViewGroup {
   private boolean tooltip = false;
   public int width;
   public int height;
+  
+  private String importantForAccessibility;
+  private boolean onLayout;
+  private boolean renderToHardwareTextureAndroid;
+  private String accessibilityLabel;
+  private String accessibilityLiveRegion;
+  private String accessibilityComponentType;
 
   public AirMapCallout(Context context) {
     super(context);

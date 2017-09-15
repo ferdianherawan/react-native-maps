@@ -36,6 +36,13 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import javax.annotation.Nullable;
 
 public class AirMapMarker extends AirMapFeature {
+	
+  private String importantForAccessibility;
+  private boolean onLayout;
+  private boolean renderToHardwareTextureAndroid;
+  private String accessibilityLabel;
+  private String accessibilityLiveRegion;
+  private String accessibilityComponentType;
 
   private MarkerOptions markerOptions;
   private Marker marker;
